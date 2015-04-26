@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Input Harga</title>
+<link type="text/css" href="../css/bootstrap.css" />
+<link type="text/css" href="../css/bootstrap-responsive.css" />
+<link type="text/css" href="../css/bootstrap-theme.css" />
+<link href="css/simple-sidebar.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/jquery111.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <h1><center>Input Daftar Harga</center></h1>
+  <h6>&nbsp</h6>
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="nSupplier">Nama Supplier</label>
+      <div class="col-sm-10">
+      <select name="nSupplier" class="form-control" id="nSupplier">
+      	<option value="0">-Pilih Supplier-</option>
+        <option value="">CV Untung Sejahtera</option>
+        <option value="">CV Maju Sejahtera</option>
+      </select>
+       </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="nMaterial">Nama Material</label>
+      <div class="col-sm-10">          
+      <select name="nMaterial" class="form-control" id="nMaterial">
+      	<option value="0">-Pilih Material-</option>
+        <option value="">Batu Bata</option>
+        <option value="">Semen</option>
+      </select>
+      </div>
+    </div>
+    <div class="form-group">        
+      <label class="control-label col-sm-2" for="harga">Harga Satuan (Rp)</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="harga" placeholder="  Masukan Harga">
+        </div>
+      </div>
+        <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="save" class="btn btn-primary" id="save">Save</button>
+        <button type="cancel" class="btn btn-danger" id="cancel">Cancel</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
